@@ -1,0 +1,34 @@
+{
+  "name": "piral-app-shell",
+  "version": "1.0.0",
+  "description": "Piral App Shell - Microfrontend Application",
+  "app": "src/index.html",
+  "scripts": {
+    "start": "piral debug",
+    "build": "piral build"
+  },
+  "keywords": [
+    "piral",
+    "microfrontend"
+  ],
+  "dependencies": {
+    "piral": "^0.15.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@types/react-router": "^5.1.20",
+    "@types/react-router-dom": "^5.3.3",
+    "piral-cli": "^0.15.9",
+    "piral-cli-webpack5": "0.15.13",
+    "typescript": "^5.3.3"
+  },
+  "importmap": {
+    "imports": {}
+  }
+}
