@@ -1,0 +1,39 @@
+{
+  "name": "auth-pilet",
+  "version": "1.0.0",
+  "description": "Authentication Pilet - Login and Signup",
+  "main": "dist/index.js",
+  "piralInstances": {
+    "piral-app-shell": {
+      "path": "../../shell",
+      "port": 1234
+    }
+  },
+  "scripts": {
+    "start": "pilet debug --target piral-app-shell",
+    "build": "pilet build",
+    "serve": "node serve.js"
+  },
+  "keywords": [
+    "pilet",
+    "authentication"
+  ],
+  "dependencies": {
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.2.1",
+    "piral-cli": "^0.15.9",
+    "piral-cli-webpack5": "^0.15.13",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-dom": "*"
+  }
+}

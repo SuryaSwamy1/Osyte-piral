@@ -1,4 +1,19 @@
-node_modules
-*.log
-.env
+# Dependencies
+node_modules/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
 database.sqlite
+
+# Environment
+.env
+.env.local
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
