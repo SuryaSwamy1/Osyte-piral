@@ -9,7 +9,8 @@
       "Bash(curl:*)",
       "Bash(npm run build:*)",
       "Bash(npm start)",
-      "Bash(npm run serve:*)"
+      "Bash(npm run serve:*)",
+      "Bash(test:*)"
     ],
     "deny": [],
     "ask": []
